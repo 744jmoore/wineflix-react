@@ -1,14 +1,18 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
+import Navigation from "./Navigation";
 
 const App = () => {
   return (
   <div className="App">
+ 
     <header className="hero">
       <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
+ 
       <nav className="navigation">
-        <section className="primary-navigation">
+      <Navigation />
+{/*         <section className="primary-navigation">
           <h1>WineFlix</h1>
           <ul className="navigation-links">
             <li className="active">
@@ -24,7 +28,7 @@ const App = () => {
               <a href="https://developer.mozilla.org">Blends</a>
             </li>
           </ul>
-        </section>
+        </section> */}
         <section className="secondary-navigation">
           <span className="user-avatar">
             <a href="https://developer.mozilla.org">S</a>
