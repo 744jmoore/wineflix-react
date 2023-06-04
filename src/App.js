@@ -2,6 +2,8 @@ import "./App.css";
 import Navigation from "./Navigation";
 import SecondaryNavigation from "./SecondaryNavigation";
 import HeroContent from "./HeroContent";
+import DrinkAgain from "./DrinkAgain";
+
 
 const App = () => {
   return (
@@ -17,7 +19,10 @@ const App = () => {
       <HeroContent />
     </header>
     <main>
-      <section className="category">
+
+      <DrinkAgain />
+
+{/*       <section className="category">
         <h2>Drink Again</h2>
         <ul>
           <li>
@@ -29,6 +34,7 @@ const App = () => {
           <li>
             <div className="wine">
               <img src="/red-wine.jpg" alt="Wine" />
+              <span className="">New!</span>
             </div>
           </li>
           <li>
@@ -64,7 +70,7 @@ const App = () => {
             </div>
           </li>
         </ul>
-      </section>
+      </section> */}
       <section className="category">
         <h2>Keep Drinking</h2>
         <ul>
