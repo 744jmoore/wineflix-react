@@ -1,4 +1,4 @@
-const DrinkAgain = () => {
+const DrinkAgain2 = () => {
 
     const wines = [{
         id: 1,
@@ -86,19 +86,19 @@ const DrinkAgain = () => {
     }];
 
 
-   
+
 
     const finished = wines.filter(wine => wine.isFinished === true);
-   
-    
-   
+
+
+
 
 
 
     return (
 
         <section className="category">
-            <h2>Drink Again</h2>
+            <h2>Drink Again2</h2>
             <ul>
                 {finished.map((finished) => (
                     <li key={finished.id}>
@@ -114,8 +114,8 @@ const DrinkAgain = () => {
 
             </ul>
         </section>
-     
+
     );
 }
 
-export default DrinkAgain
+export default DrinkAgain2
