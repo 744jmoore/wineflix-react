@@ -89,10 +89,6 @@ const DrinkAgain = () => {
    
 
     const finished = wines.filter(wine => wine.isFinished === true);
-   
-    
-   
-// Run Build test
 
 
     return (
