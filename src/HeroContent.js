@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 import { useState } from "react";
 
 const HeroContent = () => {
-    const [bl, setBl] = useState([
+    const [bl] = useState([
         {title: "Drink", type: "primary-action", key:1, icon:"images/play.png"},
         {title: "More Info", type: "secondary-action", key:2, icon:"images/info.png"}
     ]);
